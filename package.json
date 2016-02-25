@@ -1,0 +1,20 @@
+{
+    "name": "react-confirm-action-button",
+    "version": "0.1.0",
+    "description": "A react component",
+    "main": "confirm-action-button",
+    "repository": {
+        "type": "git",
+        "url": "git+https://bitbucket.org/indev/react-confirm-action-button.git"
+    },
+    "author": "Pavlos Poulakis <pavlos@indev.gr>",
+    "license": "BSD-2-Clause",
+    "homepage": "https://bitbucket.org/indev/react-confirm-action-button#readme",
+    "dependencies": {
+        "react": "0.14.0",
+        "react-clean-modal": "git+ssh://git@bitbucket.org:indev/react-clean-modal.git#0.1.1"
+    },
+    "browserify": {
+        "transform": ["babelify"]
+    }
+}
