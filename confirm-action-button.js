@@ -20,7 +20,6 @@ export default class ConfirmActionButton extends React.Component {
 		} else {
 			this.performAction();
 		}
-
 	}
 
 	_performAction() {
@@ -40,7 +39,10 @@ export default class ConfirmActionButton extends React.Component {
 
 	render() {
 		return <div className={`confirm-button ${this.props.className}`}>
-			<button onClick={this.handleClick}>
+			<button
+				onClick={this.handleClick}
+				className={this.props.buttonClassName}
+			>
 				{this.props.callToAction}
 			</button>
 			<Modal
